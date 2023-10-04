@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/timo-reymann/sshpass-ci-container/compare/1.0.0...1.1.0) (2023-10-04)
+
+
+### Features
+
+* Remove bash and use sh ([c13a234](https://github.com/timo-reymann/sshpass-ci-container/commit/c13a2340dacee63b4fce956a35649c12a4b66997))
+
 ## 1.0.0 (2023-10-04)
 
 
