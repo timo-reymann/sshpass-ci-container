@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/timo-reymann/sshpass-ci-container/compare/1.1.0...1.2.0) (2023-10-20)
+
+
+### Features
+
+* Add oci labels ([de5dc08](https://github.com/timo-reymann/sshpass-ci-container/commit/de5dc084ddef5f92151b776f9396392056bf388f))
+
 ## [1.1.0](https://github.com/timo-reymann/sshpass-ci-container/compare/1.0.0...1.1.0) (2023-10-04)
 
 
