@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/timo-reymann/sshpass-ci-container/compare/1.2.2...1.2.3) (2024-05-22)
+
+
+### Bug Fixes
+
+* **deps:** update alpine docker tag to v3.20.0 ([#6](https://github.com/timo-reymann/sshpass-ci-container/issues/6)) ([bb6a12d](https://github.com/timo-reymann/sshpass-ci-container/commit/bb6a12d9b7d2deabb6e8b3573bbf5332863c0576))
+
 ## [1.2.2](https://github.com/timo-reymann/sshpass-ci-container/compare/1.2.1...1.2.2) (2024-01-27)
 
 
