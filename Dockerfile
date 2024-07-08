@@ -10,10 +10,10 @@ LABEL org.opencontainers.image.documentation="https://github.com/timo-reymann/ss
 LABEL org.opencontainers.image.source="https://github.com/timo-reymann/sshpass-ci-container.git"
 
 # renovate: datasource=repology depName=alpine_3_20/openssh versioning=loose
-ARG openssh_version="9.7_p1-r4"
+ARG openssh_version=9.7_p1-r4
 
 # renovate: datasource=repology depName=alpine_3_20/sshpass versioning=loose
-ARG sshpass_version="1.10-r0"
+ARG sshpass_version=1.10-r0
 
 RUN apk update \
     && apk add --no-cache \
