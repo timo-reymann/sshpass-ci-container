@@ -8,7 +8,15 @@ LABEL org.opencontainers.image.authors="Timo Reymann <mail@timo-reymann.de>"
 LABEL org.opencontainers.image.url="https://github.com/timo-reymann/sshpass-ci-container"
 LABEL org.opencontainers.image.documentation="https://github.com/timo-reymann/sshpass-ci-container"
 LABEL org.opencontainers.image.source="https://github.com/timo-reymann/sshpass-ci-container.git"
-RUN apk add --update --no-cache \
-        git \
-        openssh \
-        sshpass
+
+# renovate: datasource=repology depName=alpine_3_20/openssh versioning=loose
+ARG openssh_version=9.7_p1-r4
+
+# renovate: datasource=repology depName=alpine_3_20/sshpass versioning=loose
+ARG sshpass_version=1.10-r0
+
+RUN apk update \
+    && apk add --no-cache \
+        openssh=${openssh_version} \
+        sshpass=${sshpass_version}
+
