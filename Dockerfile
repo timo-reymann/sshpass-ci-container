@@ -1,4 +1,4 @@
-FROM alpine:3.20.1
+FROM alpine:3.20.2
 LABEL org.opencontainers.image.title="sshpass-ci-container"
 LABEL org.opencontainers.image.description="Docker image to run sshpass in CI environments"
 LABEL org.opencontainers.image.ref.name="main"
